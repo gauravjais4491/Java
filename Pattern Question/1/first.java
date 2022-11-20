@@ -15,6 +15,4 @@ public class first {
         }
         sc.close();
     }
-
-    
 }
