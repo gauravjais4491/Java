@@ -15,6 +15,7 @@ class Solution {
     }
 }
 
+
 public class Concatenation_of_Array{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
