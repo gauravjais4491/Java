@@ -12,7 +12,7 @@ class Solution {
     }
 }
 
-public class input{
+public class Build_Array_from_Permutation{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter length of an array: ");
