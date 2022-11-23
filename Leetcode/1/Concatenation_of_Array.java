@@ -15,7 +15,7 @@ class Solution {
     }
 }
 
-public class input{
+public class Concatenation_of_Array{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter length of an array: ");
