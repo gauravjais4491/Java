@@ -8,7 +8,7 @@ class Solution{
     }
 }
 
-public class input {
+public class Add_Two_Integers {
     public static void main(String[] args) {
         Solution s=new Solution();
         Scanner sc=new Scanner(System.in);
