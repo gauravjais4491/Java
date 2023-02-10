@@ -3,7 +3,7 @@ import javax.swing.*;
 public class Thirtythree {
     Thirtythree()
     {
-        JFrame f=new JFrame("My Panel");
+        JFrame f=new JFrame("Login Page");
         JPanel p=new JPanel();
         p.setBounds(20,30,500,600);
         p.setBackground(Color.green);
