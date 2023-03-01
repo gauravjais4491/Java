@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Thritysix",
+            "request": "launch",
+            "mainClass": "Thritysix",
+            "projectName": "Java_4f8560bf"
+        },
+        {
+            "type": "java",
             "name": "Launch Shuffle_the_Array",
             "request": "launch",
             "mainClass": "Shuffle_the_Array",
