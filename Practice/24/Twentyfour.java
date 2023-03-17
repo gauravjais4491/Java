@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.*;
 import java.util.stream.*;
 
 class demo{
@@ -21,5 +21,6 @@ public class Twentyfour {
         al.add(21);
         Stream<Integer> st=al.stream().distinct().sorted((p,q) -> p.compareTo(q));
         st.forEach(x -> System.out.println(x));
+        
     }
 }
