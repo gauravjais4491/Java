@@ -2,13 +2,13 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-class fourty extends Canvas {
+class Fourty extends Canvas {
     static boolean left = false, up = false, down = false, right = true;
     static int x, y = 15, i = 0;
 
     static public void main(String[] shruti) {
         JFrame f = new JFrame();
-        fourty b = new fourty();
+        Fourty b = new Fourty();
         f.add(b);
 
         b.addKeyListener(new KeyAdapter() {

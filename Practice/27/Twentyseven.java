@@ -26,5 +26,6 @@ public class Twentyseven {
         f.setLayout(null);
         f.setResizable(false);
         f.setVisible(true);
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }

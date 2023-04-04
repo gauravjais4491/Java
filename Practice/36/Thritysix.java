@@ -49,7 +49,7 @@ public class Thritysix {
         m2.add(i8);
         jmb.add(m2);
         JMenu m3=new JMenu("View");
-        JCheckBoxMenuItem cm=new JCheckBoxMenuItem("Status Bar",true);
+        JCheckBoxMenuItem cm=new JCheckBoxMenuItem("Status Bar");
         m3.add(cm);
         jmb.add(m3);
         f.setJMenuBar(jmb);
