@@ -63,6 +63,7 @@ import java.awt.event.*;
 import javax.swing.*;
 import java.sql.*;
 
+
 public class SignUpGUI extends JFrame implements ActionListener {
     private JLabel lblUsername, lblPassword, lblConfirmPassword;
     private JTextField txtUsername;
