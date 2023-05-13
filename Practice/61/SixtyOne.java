@@ -3,14 +3,14 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 public class SixtyOne {
-    public static void main(final String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException {
         ExecutorService executor=Executors.newSingleThreadExecutor();
         try{
             executor.submit(new Task());
             System.out.println("Shutdowm executer");
             executor.shutdown();
             executor.awaitTermination(5, TimeUnit.SECONDS);
-            
+
 
         }
         catch(InterruptedException e){
